@@ -1,7 +1,7 @@
 #Question 25
 #Display all records.
 import mysql.connector as ms 
-mycon=ms.connect(host='localhost',user='root',passwd='kali',database='Emg')
+mycon=ms.connect(host='localhost',user='root',passwd='admin',database='Emg')
 cursor=mycon.cursor()
 
 q='Select * from Employee'
